@@ -86,3 +86,12 @@ curl -X GET "https://covid19-public.digitalservice.id/api/v1/rekapitulasi_v2/jab
 
 ## H. File Structure
 ![image](https://user-images.githubusercontent.com/80158731/146139828-d3d97738-ad5a-47f2-95db-aa558d053db2.png)
+
+## Information
+Based on Airflow (2.2.2) Image 
+docker.io/bitnami/airflow:2.2.2-debian-10-r8,
+docker.io/bitnami/airflow-scheduler:2.2.2-debian-10-r9,
+docker.io/bitnami/airflow-worker:2.2.2-debian-10-r9
+and uses the official Postgres as backend and Redis as queue
+Based on MySQL (5.7) official Image mysql:5.7
+Based on PostgreSQL (10) official Image postgres:10
