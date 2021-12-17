@@ -83,9 +83,9 @@ curl -X GET "https://covid19-public.digitalservice.id/api/v1/rekapitulasi_v2/jab
 1. Airflow dag path
     - ./dags:/opt/bitnami/airflow/dags
 3. MySQL data path
-    - my-db:/var/lib/mysql
+    - ./mysql:/var/lib/mysql
 5. PostgreSQL data path
-    - database-data:/var/lib/postgresql/data/
+    - ./postgresql:/var/lib/postgresql/data/
     
 ## H. File Structure
 ![image](https://user-images.githubusercontent.com/80158731/146139828-d3d97738-ad5a-47f2-95db-aa558d053db2.png)
