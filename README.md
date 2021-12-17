@@ -18,7 +18,7 @@ curl -X GET "https://covid19-public.digitalservice.id/api/v1/rekapitulasi_v2/jab
 ![image](https://user-images.githubusercontent.com/80158731/146137091-6e7eff55-9699-4684-bf1f-65b717538c6d.png)
 
 ## E. Project Steps
-1. Create Docker (MySQL, Airflow and PostgreSQL) in your local computer
+1. Create Docker (MySQL, Airflow and PostgreSQL) in your local/server computer
 2. Create Database in MySQL and PostgreSQL
 3. Create Connection from Airflow to MySQL and PostgreSQL
 4. Create DAG
